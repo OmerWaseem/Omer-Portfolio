@@ -49,10 +49,6 @@ code {
     monospace;
 }
 
-.sticky-top{
-  background: #000000;
-
-}
 
 .navbar{
   border-bottom: 1px solid #8597E4;
@@ -72,18 +68,7 @@ h1 {
   border-radius: 8px;
   height: 30px
 }
-.small-input-field{
-  width: 100px ;
-  border-radius: 8px;
-  height: 30px
-}
 
-.sidebar-nav{
-  padding: 10px;
-  margin-top: 50vh;
-  border-right: 2px solid #8597E4;
-
-}
 
 .px-4{
   font-size: 20px;

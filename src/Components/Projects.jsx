@@ -15,7 +15,6 @@ export const Projects = () => (
     <div className="card" style={{background: '#000000'}}>
       <div className="card-columns">
         <div className="card card-bg">
-          <img src="..." className="card-img-top" alt="..."/>
           <div className="card-body">
             <h5 className="card-title">Unity Game</h5>
             <p className="card-text">Add live demo here along with description</p>

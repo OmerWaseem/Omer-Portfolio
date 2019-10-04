@@ -6,8 +6,8 @@ export const About = () => (
     <div className="about-main">About me</div>
     <h1></h1>
     <TextLoop interval={1500}>
-      <div className="about-main">student</div>
-      <div className="about-main">cyber security</div>
+      <div className="about-main">Student</div>
+      <div className="about-main">Cyber Security</div>
       <div className="about-main">HTML/CSS</div>
       <div className="about-main">Java</div>
       <div className="about-main">JavaScript</div>
