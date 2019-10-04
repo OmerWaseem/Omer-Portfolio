@@ -1,0 +1,14 @@
+{
+    "prod": {
+        "awscloudformation": {
+            "AuthRoleName": "omer-portfolio-prod-20191004165633-authRole",
+            "UnauthRoleArn": "arn:aws:iam::460711717728:role/omer-portfolio-prod-20191004165633-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::460711717728:role/omer-portfolio-prod-20191004165633-authRole",
+            "Region": "us-east-2",
+            "DeploymentBucketName": "omer-portfolio-prod-20191004165633-deployment",
+            "UnauthRoleName": "omer-portfolio-prod-20191004165633-unauthRole",
+            "StackName": "omer-portfolio-prod-20191004165633",
+            "StackId": "arn:aws:cloudformation:us-east-2:460711717728:stack/omer-portfolio-prod-20191004165633/1bc3c380-e674-11e9-817d-023ebc410218"
+        }
+    }
+}

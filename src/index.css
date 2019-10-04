@@ -1,5 +1,12 @@
+html {
+  background: #000000;
+}
+
 body {
+  background: #000000;
   margin: 0;
+  padding: 0;
+  color: #fff;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
@@ -7,7 +14,78 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+a {
+  text-decoration: none;
+  color: #fff !important;
+  font-size: 1em;
+}
+
+a:hover {
+
+}
+
+.card-bg {
+  background-color: #272835 !important;
+  border: 0px;
+  border-radius: 10px;
+}
+
+.card-bg:hover {
+  border: 1px solid #8597E4;
+}
+
+.about-main {
+  font-size: 6.5em;
+  text-align: center;
+  width: 7em;
+}
+
+.vh-90 {
+  height: 90vh;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.sticky-top{
+  background: #000000;
+
+}
+
+.navbar{
+  border-bottom: 1px solid #8597E4;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.social-links{
+  text-align: center; 
+
+}
+.input-field{
+  width: 200px ;
+  border-radius: 8px;
+  height: 30px
+}
+.small-input-field{
+  width: 100px ;
+  border-radius: 8px;
+  height: 30px
+}
+
+.sidebar-nav{
+  padding: 10px;
+  margin-top: 50vh;
+  border-right: 2px solid #8597E4;
+
+}
+
+.px-4{
+  font-size: 20px;
+
 }
