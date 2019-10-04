@@ -9,6 +9,7 @@ export const Header = () => (
         <a name="about"></a>
         <a className="px-4" href="#about">About</a>
         <a className="px-4" href="#projects">Projects</a>
+        <a className="px-4" href="#contacts">Contact</a>
       </div>
     </nav>
   </div>

@@ -74,3 +74,12 @@ h1 {
   font-size: 20px;
 
 }
+
+.list-text{
+  color: #000000
+
+}
+
+.card-body{
+  max-width: 600px;
+}

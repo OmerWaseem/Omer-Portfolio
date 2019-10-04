@@ -52,7 +52,7 @@ export const Projects = () => (
         </div>
         <div className="card card-bg text-white p-3">
 
-            <div><p style={{textAlign:"center", fontSize:"25px"}}>Contact</p></div>
+            <div id="contacts"><p style={{textAlign:"center", fontSize:"25px"}}>Contact</p></div>
               <div className="social-links">
                 <a className= "px-3" href="https://github.com/OmerWaseem"><FontAwesomeIcon icon={faGithub} size="3x" /></a>
                 <a href="mailto:omerwaseem15@gmail.com"><FontAwesomeIcon icon={faEnvelope} size="3x" /></a>
