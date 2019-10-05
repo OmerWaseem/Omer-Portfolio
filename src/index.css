@@ -34,10 +34,43 @@ a:hover {
   border: 1px solid #8597E4;
 }
 
-.about-main {
+.main-heading{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 6.5em;
   text-align: center;
   width: 7em;
+  font-weight: 700;
+  color:#8597E4;
+}
+
+*[datatype~="secondary"]{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 6.5em;
+  text-align: center;
+  width: 7em;
+}
+
+*[datatype~="tertiary"]{
+  font-size: 6.5em;
+  text-align: center;
+  width: 7em;
+}
+*[datatype~="section"]{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 3em;
+  text-align: center;
+  font-weight: 700;
+  color:#8597E4 !important;
+
+}
+.secondary-heading {
+
+}
+.tertiary-heading{
+
+}
+
+.section-heading {
 }
 
 .vh-90 {
@@ -72,14 +105,32 @@ h1 {
 
 .px-4{
   font-size: 20px;
-
+  
 }
 
 .list-text{
-  color: #000000
+  color: #fff;
 
 }
 
 .card-body{
   max-width: 600px;
+}
+
+
+
+.inline{
+  display: inline;
+
+}
+
+button{
+  font-size: 20px;
+  background: #000000;
+  color:#fff;
+  border: 0;  
+}
+
+.dropdown-item{
+  font-size: 15px;
 }

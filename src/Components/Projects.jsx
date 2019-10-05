@@ -3,15 +3,14 @@ import Video1 from './e_thump.gif'
 import WSA from './WSA.png'
 import PasswordStrengthMeter from './PSM_App'
 import PassGen_App from './PassGen_App'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub } from '@fortawesome/free-brands-svg-icons'
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
 
 export const Projects = () => (
   <section className="vh-80">
     <a name="projects"></a>
-    <h1>Projects</h1>
+    <div datatype="section heading"><h1 >Projects</h1></div>
+      
+
     <div className="card" style={{background: '#000000'}}>
       <div className="card-columns">
         <div className="card card-bg">
@@ -49,14 +48,6 @@ export const Projects = () => (
               </small>
             </footer>
           </blockquote>
-        </div>
-        <div className="card card-bg text-white p-3">
-
-            <div id="contacts"><p style={{textAlign:"center", fontSize:"25px"}}>Contact</p></div>
-              <div className="social-links">
-                <a className= "px-3" href="https://github.com/OmerWaseem"><FontAwesomeIcon icon={faGithub} size="3x" /></a>
-                <a href="mailto:omerwaseem15@gmail.com"><FontAwesomeIcon icon={faEnvelope} size="3x" /></a>
-              </div>
         </div>
         <div className="card card-bg text-center">
           <div className="card-body">

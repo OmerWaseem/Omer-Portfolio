@@ -1,4 +1,8 @@
 import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithub , faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+
 
 export const Header = () => (
   <div>
@@ -9,7 +13,17 @@ export const Header = () => (
         <a name="about"></a>
         <a className="px-4" href="#about">About</a>
         <a className="px-4" href="#projects">Projects</a>
-        <a className="px-4" href="#contacts">Contact</a>
+
+        <div class="dropdown inline px-4 2pr-5">
+  <button class="dropdown-toggle px4" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Contact
+  </button>
+  <div class="dropdown-menu pr5" aria-labelledby="dropdownMenu2">
+    <button class="dropdown-item" type="button"><a className= "social-links" href="https://github.com/OmerWaseem"><FontAwesomeIcon icon={faGithub} size="1x" /></a>    Github</button>
+    <button class="dropdown-item" type="button"><a className= "social-links" href="mailto:omerwaseem15@gmail.com"><FontAwesomeIcon icon={faEnvelope} size="1x" /></a>    Email</button>
+    <button class="dropdown-item" type="button"><a className= "social-links" href="google.com"><FontAwesomeIcon icon={faLinkedinIn} size="1x" /></a>    LinkedIn</button>
+  </div>
+</div>
       </div>
     </nav>
   </div>
