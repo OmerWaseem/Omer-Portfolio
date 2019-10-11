@@ -49,12 +49,12 @@ a:hover {
   font-size: 5em;
   font-weight: 550;
   color:#8597E4;
-  min-width: 33em;
+
 }
 
 *[datatype~="tertiary"]{
   font-size: 4em;
-  min-width: 33em;
+
 }
 *[datatype~="section"]{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
