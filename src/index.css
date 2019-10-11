@@ -24,6 +24,13 @@ a:hover {
 
 }
 
+.card{
+  margin:0 auto;
+  float: none;
+  margin-bottom: 10px;
+}
+
+
 .card-bg {
   background-color: #272835 !important;
   border: 0;
@@ -106,9 +113,7 @@ h1 {
 
 }
 
-.card-body{
-  max-width: 37.5em;
-}
+
 
 
 
@@ -147,12 +152,16 @@ h1 {
   margin-top: 5px;
   border-radius: 5px
 }
-.experience-buttons{
-  padding-right: 2em;
-  padding-left: 2em;
+.experience-card{
+  background:#272835;
+   width:50rem;
+   border-radius:0.625em
 }
 
-
+.projects-card{
+  padding-right: 1em;
+  padding-left: 1em;
+}
 /* 
   ##Device = Tablets, Ipads (portrait)
   ##Screen = B/w 768px to 1024px
@@ -195,17 +204,20 @@ h1 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 3.5em;
     text-align: center;
+    padding-top: 4.5em;
   }
   
   *[datatype~="secondary"]{
     font-size: 2em;
     color:#8597E4;
 
+
   }
 
   *[datatype~="tertiary"]{
     font-size: 1.75em;
-    font-weight: 300
+    font-weight: 300;
+
   }
   *[datatype~="section"]{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -240,7 +252,7 @@ h1 {
   }
 
   .about-me-section{
-    height: 90vh!important;
+    height: 85vh!important;
   }
   
   h1 {
@@ -256,8 +268,9 @@ h1 {
     padding-right: .5em;
     padding-left: .5em;
   }
-
-  .experience-buttons{
-    padding-left: 3.75em;
+  .experience-card{
+    background:#272835;
+     width:22em;
+     border-radius:0.625em
   }
 }
