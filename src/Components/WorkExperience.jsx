@@ -3,7 +3,7 @@ import React from 'react';
 export const WorkExperience = () => (
   <section className="vh-80">
     <div datatype="section heading"><h1>Work Experience</h1></div>
-    <div>
+    <div className="experience-buttons">
       <p>
         <a className="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
           Intership at SALAMA (Insurance)

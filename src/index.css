@@ -26,53 +26,44 @@ a:hover {
 
 .card-bg {
   background-color: #272835 !important;
-  border: 0px;
-  border-radius: 10px;
+  border: 0;
+  border-radius: 0.625em;
 }
 
 .card-bg:hover {
-  border: 1px solid #8597E4;
+  border: 0.063em solid #8597E4;
+}
+
+.h5{
+  text-align: center;
 }
 
 .main-heading{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 6.5em;
+  font-size: 7em;
   text-align: center;
-  width: 7em;
-  font-weight: 700;
-  color:#8597E4;
+  padding-top: 1.5em;
 }
 
 *[datatype~="secondary"]{
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 6.5em;
-  text-align: center;
-  width: 7em;
+  font-size: 5em;
+  font-weight: 550;
+  color:#8597E4;
+  min-width: 33em;
 }
 
 *[datatype~="tertiary"]{
-  font-size: 6.5em;
-  text-align: center;
-  width: 7em;
+  font-size: 4em;
+  min-width: 33em;
 }
 *[datatype~="section"]{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 3em;
   text-align: center;
-  font-weight: 700;
+  font-weight: 300 !important;
   color:#8597E4 !important;
 
 }
-.secondary-heading {
-
-}
-.tertiary-heading{
-
-}
-
-.section-heading {
-}
-
 .vh-90 {
   height: 90vh;
 }
@@ -84,12 +75,12 @@ code {
 
 
 .navbar{
-  border-bottom: 1px solid #8597E4;
+  border-bottom: 0.063em solid #8597E4;
 }
 
 h1 {
   text-align: center;
-  padding-top: 100px;
+  padding-top: 6.25em;
 }
 
 .social-links{
@@ -97,15 +88,9 @@ h1 {
 
 }
 .input-field{
-  width: 200px ;
-  border-radius: 8px;
-  height: 30px
-}
-
-
-.px-4{
-  font-size: 20px;
-  
+  width: 12.5em ;
+  border-radius: 0.5em;
+  height: 1.875em
 }
 
 .list-text{
@@ -114,7 +99,7 @@ h1 {
 }
 
 .card-body{
-  max-width: 600px;
+  max-width: 37.5em;
 }
 
 
@@ -124,13 +109,139 @@ h1 {
 
 }
 
-button{
-  font-size: 20px;
+
+.header-tabs{
+  font-size: 1.25em;
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+.header-button{
+  font-size: 1em;
   background: #000000;
   color:#fff;
   border: 0;  
 }
 
-.dropdown-item{
-  font-size: 15px;
+  
+.centered-text{
+  text-align: center;
+  width: 280px;
+
+}
+
+.about-me-section{
+  height: 80vh!important;
+}
+
+.buttons{
+  margin-left: 50px;
+  border-radius: 5px
+}
+.experience-buttons{
+  padding-right: 2em;
+  padding-left: 2em;
+}
+
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /*CSS*/
+  
+}
+
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  /*CSS*/
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .main-heading{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: 200;
+    color:#8597E4;
+    width: 100%
+  }
+  
+  *[datatype~="secondary"]{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2.5em;
+    text-align: center;
+    width: 100%;
+    padding-top: 2em;
+
+  }
+  
+  .centered-text{
+    text-align: center;
+    width: 280px;
+
+  }
+
+  *[datatype~="tertiary"]{
+    font-size: 1.5em;
+    text-align: center;
+    width: 100%
+  }
+  *[datatype~="section"]{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1em;
+    text-align: center;
+    font-weight: 200;
+    color:#8597E4 !important;
+    width: 100%
+  }
+
+  .header-tabs{
+    font-size: 1.1em;
+    padding-right: 0.5em;
+    padding-left: 0.5em;
+    text-align: center
+  }
+
+  .header-button{
+    font-size: 1.1em;
+    background: #000000;
+    color:#fff;
+    border: 0;  
+    text-align: center
+  }
+
+  .about-me-section{
+    height: 40vh!important;
+  }
+  
+  h1 {
+    text-align: center;
+    padding-top: 6.25em;
+    font-size: 2em
+  }
+  .buttons{
+    margin-left: 5px;
+    margin-top: 5px;
+    border-radius: 5px
+  }
+  .projects-card{
+    padding-right: .5em;
+    padding-left: .5em;
+  }
 }

@@ -12,7 +12,7 @@ export const Projects = () => (
       
 
     <div className="card" style={{background: '#000000'}}>
-      <div className="card-columns">
+      <div className="card-columns projects-card">
         <div className="card card-bg">
           <div className="card-body">
             <h5 className="card-title">Unity Game</h5>
@@ -23,7 +23,7 @@ export const Projects = () => (
         <div className="card card-bg">
           <div className="card-body">
             <h5 className="card-title">Java Processing Game</h5>
-            <img width= "auto" src={Video1} alt="loading..."/>
+            <img width= "100%" height="auto" src={Video1} alt="loading..."/>
             <p className="card-text">Use the mouse to control Bill so he can bounce to balls on his hat and collect them in his basket.</p>
             <p>*Source code can be provided if required for a demo.</p>
           </div>
@@ -51,7 +51,7 @@ export const Projects = () => (
         </div>
         <div className="card card-bg text-center">
           <div className="card-body">
-            <img width= "440px" height="225px" src={WSA} alt="loading..."/>
+            <img width= "100%" height="auto" src={WSA} alt="loading..."/>
             <p className="card-text"><small>This application analyzes and gives a summary of the different components that make up an HTML page and looks for some vulnerabilities that can easily be overlooked. <a style={{}} href="https://web-security-analyzer.herokuapp.com/">Try it now!</a></small></p>
           </div>
         </div>

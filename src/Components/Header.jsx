@@ -6,16 +6,16 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
 export const Header = () => (
   <div>
-    <nav className="navbar sticky-top">
+    <nav className="navbar">
       <a className="navbar-brand"><h2>Omer Bin Waseem</h2></a>
       
       <div className="inline">
         <a name="about"></a>
-        <a className="px-4" href="#about">About</a>
-        <a className="px-4" href="#projects">Projects</a>
+        <a className="header-tabs" href="#about">About</a>
+        <a className="header-tabs" href="#projects">Projects</a>
 
-        <div class="dropdown inline px-4 2pr-5">
-  <button class="dropdown-toggle px4" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <div class="dropdown inline header-tabs 2pr-5">
+  <button class="dropdown-toggle px4 header-button" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
     Contact
   </button>
   <div class="dropdown-menu pr5" aria-labelledby="dropdownMenu2">

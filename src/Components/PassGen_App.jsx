@@ -58,9 +58,9 @@ class PassGen_App extends Component{
 		<div className="row">
 			<p>Please enter the length of password that you require below. (The longer the password, the stronger it is but more difficult to remember.)</p>
 			<input className="input-field" id="myNumber" placeholder=" password length here" ref={this.numInput} />
-			<button style={{marginLeft:"50px"}} id="btn" onClick={this.genPass}  >Generate New Password!</button>
+			<button className="buttons" id="btn" onClick={this.genPass}  >Generate New Password!</button>
 			<input className="input-field pt-2 pr-2 mt-2" id="myNewPassword" readOnly value={this.state.generatedPass} />
-			<button className="mt-2" style={{marginLeft:"50px"}} id="Copybtn" onClick={this.copyFnc} >Copy Password</button>
+			<button className="buttons" id="Copybtn" onClick={this.copyFnc} >Copy Password</button>
 		</div>
 	</div>
 		)
