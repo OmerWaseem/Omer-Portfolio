@@ -7,7 +7,7 @@ export const About = () => (
   <section className="about-me-section col justify-content-center align-items-center w-100 text-align-center align-middle align-content-center">
     <div className="main-heading">About me</div>
     <h5 className="flexbox">
-    <TextLoop springConfig={{ stiffness: 180, damping: 8 }} interval={1500}>
+    <TextLoop springConfig={{ stiffness: 180, damping: 8 }} interval={2500}>
 
       <div datatype="secondary heading" className="centered-text" >Student</div>
       <div datatype="tertiary heading" className="centered-text" >Cyber Security</div>

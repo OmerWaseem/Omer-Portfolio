@@ -6,7 +6,7 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
 export const Header = () => (
   <div>
-    <nav className="navbar">
+    <nav className="navbar navbar-fixed-top">
       <a className="navbar-brand"><h2>Omer Bin Waseem</h2></a>
       
       <div className="inline">
