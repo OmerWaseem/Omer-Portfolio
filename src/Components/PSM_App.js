@@ -15,7 +15,7 @@ render(){
   return(
     <div className="App">
       <div className="meter pt-3">
-        <input className="input-field" placeholder= " Enter password here " autoComplete="off" type="password" onChange={e => this.setState({ password: e.target.value })} />
+        <input className="input-field" width= "100%" height="auto" placeholder= " Enter password here " autoComplete="off" type="password" onChange={e => this.setState({ password: e.target.value })} />
       <PasswordStrengthMeter password={password} />
       </div>
     </div>

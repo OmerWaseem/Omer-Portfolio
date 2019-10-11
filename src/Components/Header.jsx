@@ -13,7 +13,7 @@ export const Header = () => (
         <a name="about"></a>
         <a className="header-tabs" href="#about">About</a>
         <a className="header-tabs" href="#projects">Projects</a>
-
+        <a className="header-tabs" href="#experience">Experience</a>
         <div class="dropdown inline header-tabs 2pr-5">
   <button class="dropdown-toggle px4 header-button" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
     Contact

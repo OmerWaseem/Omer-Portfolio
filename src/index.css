@@ -68,7 +68,7 @@ a:hover {
   text-align: center;
   font-weight: 300 !important;
   color:#8597E4 !important;
-  padding-top: 6.25em;
+  padding-top: 2em;
 
 }
 .vh-90 {
@@ -97,7 +97,8 @@ h1 {
 .input-field{
   width: 12.5em ;
   border-radius: 0.5em;
-  height: 1.875em
+  height: 1.875em;
+  margin-top: 5px;
 }
 
 .list-text{
@@ -143,6 +144,7 @@ h1 {
 
 .buttons{
   margin-left: 50px;
+  margin-top: 5px;
   border-radius: 5px
 }
 .experience-buttons{
@@ -191,19 +193,18 @@ h1 {
 
   .main-heading{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 2.5em;
+    font-size: 3.5em;
     text-align: center;
   }
   
   *[datatype~="secondary"]{
     font-size: 2em;
-
     color:#8597E4;
 
   }
 
   *[datatype~="tertiary"]{
-    font-size: 1.5em;
+    font-size: 1.75em;
     font-weight: 300
   }
   *[datatype~="section"]{
@@ -213,7 +214,8 @@ h1 {
     font-weight: 200;
     color:#8597E4 !important;
     width: 100%;
-    padding-top: 13em;
+    padding-top: 2em;
+    
   }
 
   .centered-text{
@@ -223,14 +225,14 @@ h1 {
   }
 
   .header-tabs{
-    font-size: 1.1em;
-    padding-right: 0.5em;
-    padding-left: 0.5em;
+    font-size: 1em;
+    padding-right: 0.25em;
+    padding-left: 0.25em;
     text-align: center
   }
 
   .header-button{
-    font-size: 1.1em;
+    font-size: 1em;
     background: #000000;
     color:#fff;
     border: 0;  
@@ -238,7 +240,7 @@ h1 {
   }
 
   .about-me-section{
-    height: 35vh!important;
+    height: 90vh!important;
   }
   
   h1 {
@@ -253,5 +255,9 @@ h1 {
   .projects-card{
     padding-right: .5em;
     padding-left: .5em;
+  }
+
+  .experience-buttons{
+    padding-left: 3.75em;
   }
 }

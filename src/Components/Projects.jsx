@@ -7,8 +7,8 @@ import PassGen_App from './PassGen_App'
 
 export const Projects = () => (
   <section className="vh-80">
-    <a name="projects"></a>
-    <div datatype="section heading"><h1 >Projects</h1></div>
+    
+    <div datatype="section heading" style={{paddingTop:"15em;"}}><h1 ><a name="projects"></a>Projects</h1></div>
       
 
     <div className="card" style={{background: '#000000'}}>
