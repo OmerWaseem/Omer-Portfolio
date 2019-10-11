@@ -38,6 +38,14 @@ a:hover {
   text-align: center;
 }
 
+.flexbox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+}
+
 .main-heading{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 7em;
@@ -49,12 +57,10 @@ a:hover {
   font-size: 5em;
   font-weight: 550;
   color:#8597E4;
-
 }
 
 *[datatype~="tertiary"]{
   font-size: 4em;
-
 }
 *[datatype~="section"]{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -62,6 +68,7 @@ a:hover {
   text-align: center;
   font-weight: 300 !important;
   color:#8597E4 !important;
+  padding-top: 6.25em;
 
 }
 .vh-90 {
@@ -80,7 +87,7 @@ code {
 
 h1 {
   text-align: center;
-  padding-top: 6.25em;
+
 }
 
 .social-links{
@@ -126,7 +133,7 @@ h1 {
   
 .centered-text{
   text-align: center;
-  width: 280px;
+  width: 600px;
 
 }
 
@@ -173,34 +180,31 @@ h1 {
 */
 
 @media (min-width: 320px) and (max-width: 480px) {
-  .main-heading{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 1.5em;
+
+  .flexbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
     text-align: center;
-    font-weight: 200;
-    color:#8597E4;
-    width: 100%
   }
-  
-  *[datatype~="secondary"]{
+
+  .main-heading{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 2.5em;
     text-align: center;
-    width: 100%;
-    padding-top: 2em;
-
   }
   
-  .centered-text{
-    text-align: center;
-    width: 280px;
+  *[datatype~="secondary"]{
+    font-size: 2em;
+
+    color:#8597E4;
 
   }
 
   *[datatype~="tertiary"]{
     font-size: 1.5em;
-    text-align: center;
-    width: 100%
+    font-weight: 300
   }
   *[datatype~="section"]{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -208,7 +212,14 @@ h1 {
     text-align: center;
     font-weight: 200;
     color:#8597E4 !important;
-    width: 100%
+    width: 100%;
+    padding-top: 13em;
+  }
+
+  .centered-text{
+    text-align: center;
+    width: 300px;
+
   }
 
   .header-tabs{
@@ -227,12 +238,11 @@ h1 {
   }
 
   .about-me-section{
-    height: 40vh!important;
+    height: 35vh!important;
   }
   
   h1 {
     text-align: center;
-    padding-top: 6.25em;
     font-size: 2em
   }
   .buttons{
