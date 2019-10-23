@@ -100,7 +100,15 @@ h1 {
 
 .social-links{
   text-align: center; 
+  color: white;
 
+}
+.dropdown-item{
+  color:white;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 .input-field{
   width: 12.5em ;
@@ -128,6 +136,7 @@ h1 {
   font-size: 1.25em;
   padding-right: 2rem;
   padding-left: 2rem;
+  text-decoration:none !important;
 }
 
 .header-button{
@@ -273,5 +282,8 @@ h1 {
     background:#272835;
      width:22em;
      border-radius:0.625em
+  }
+  html {
+    scroll-behavior: smooth;
   }
 }

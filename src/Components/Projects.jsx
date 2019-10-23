@@ -13,12 +13,12 @@ export const Projects = () => (
 
     <div className="card" style={{background: '#000000'}}>
       <div className="card-columns projects-card">
-        <div className="card card-bg">
+        {/* <div className="card card-bg">
           <div className="card-body">
             <h5 className="card-title">Unity Game</h5>
             <p className="card-text">Add live demo here along with description</p>
           </div>
-        </div>
+        </div> */}
 
         <div className="card card-bg">
           <div className="card-body">
@@ -52,7 +52,7 @@ export const Projects = () => (
         <div className="card card-bg text-center">
           <div className="card-body">
             <img width= "100%" height="auto" src={WSA} alt="loading..."/>
-            <p className="card-text"><small>This application analyzes and gives a summary of the different components that make up an HTML page and looks for some vulnerabilities that can easily be overlooked. <a style={{}} href="https://web-security-analyzer.herokuapp.com/">Try it now!</a></small></p>
+            <p className="card-text"><small>This application analyzes and gives a summary of the different components that make up an HTML page and looks for some vulnerabilities that can easily be overlooked. <strong><a style={{}} href="https://web-security-analyzer.herokuapp.com/">Try it now!</a></strong></small></p>
           </div>
         </div>
         <div className="card card-bg">
