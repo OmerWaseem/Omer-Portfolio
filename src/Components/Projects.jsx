@@ -16,6 +16,14 @@ export const Projects = () => (
         <div className="card card-bg">
           <div className="card-body">
             <h5 className="card-title">Unity Game</h5>
+            <iframe src="https://www.youtube.com/embed/CAaGD9Vs91I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p className="card-text">My walkthrough for the Eternal Blue exploit on TryHackMe.</p>
+          </div>
+        </div>
+
+        <div className="card card-bg">
+          <div className="card-body">
+            <h5 className="card-title">Unity Game</h5>
             <iframe src="https://www.youtube.com/embed/YlvPW3tdPLY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <p className="card-text">Demo made in Unity using free to use Assets for my University Assignment</p>
           </div>
@@ -26,7 +34,6 @@ export const Projects = () => (
             <h5 className="card-title">Java Processing Game</h5>
             <img width= "100%" height="auto" src={Video1} alt="loading..."/>
             <p className="card-text">Use the mouse to control Bill so he can bounce to balls on his hat and collect them in his basket.</p>
-            <p>*Source code can be provided if required for a demo.</p>
           </div>
         </div>
         <div className="card card-bg text-white text-center p-3">

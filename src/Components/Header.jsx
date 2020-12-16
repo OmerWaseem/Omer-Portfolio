@@ -12,6 +12,7 @@ export const Header = () => (
       <div className="inline">
         <a name="about"></a>
         <a className="header-tabs" href="#about">About</a>
+        <a className="header-tabs" href="#achievments">Achievments</a>
         <a className="header-tabs" href="#projects">Projects</a>
         <a className="header-tabs" href="#experience">Experience</a>
         <div class="dropdown inline header-tabs 2pr-5">

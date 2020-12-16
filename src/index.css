@@ -150,7 +150,7 @@ iframe{
   position: relative;
   display: block;
   width: 100%;
-  height: 100%;
+  height: 250px;
 }
   
 .centered-text{
@@ -164,7 +164,7 @@ iframe{
 }
 
 .buttons{
-  margin-left: 50px;
+  margin-left: 10px;
   margin-top: 5px;
   border-radius: 5px
 }
@@ -177,6 +177,25 @@ iframe{
 .projects-card{
   padding-right: 1em;
   padding-left: 1em;
+}
+
+.carousel-images{
+  width: 70%;
+  height: 40%;
+}
+
+.carousel-caption{
+  width: 70%;
+  color: #272835;
+  text-align: left;
+  padding-left: 30px;
+  padding-top: 30px;
+  background-color: rgba(255, 255, 255, 0.432);
+}
+
+.centered-image{
+  align-items: center;
+  text-align: center;
 }
 /* 
   ##Device = Tablets, Ipads (portrait)
