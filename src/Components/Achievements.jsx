@@ -2,7 +2,7 @@ import React from 'react'
 import HackmacIMG from './HackMac2020.jpg'
 import ANZIMG from './ANZ-Virtual_Internship.png'
 import UdemyIMG from './Udemy-Python_and_WebApp.png'
-import MQIMG from './HD_Letter.png'
+import THMIMG from './THM_AoC2.png'
 import EdxIMG from './Edx-Intro_to_CyberSec.png'
 
 
@@ -19,10 +19,19 @@ export const Achievments = () => (
         <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
       </ol>
     <div class="carousel-inner">
 
     <div class="carousel-item centered-image active">
+      <img class='carousel-images' src={THMIMG} alt="..."/>
+      <div class="carousel-caption d-none d-md-block">
+        <h3>Advent of Cyber 2 - TryHackMe</h3>
+        <p>Received upon completion of the 25 days of Cyber Security challenges in various categories like Web Exploitation, Networking, Scripting and Blue Teaming. </p>
+      </div>
+    </div>
+
+    <div class="carousel-item centered-image">
       <img class='carousel-images' src={HackmacIMG} alt="..."/>
       <div class="carousel-caption d-none d-md-block">
         <h3>HackMac 2020 - Macquarie University</h3>
@@ -42,7 +51,7 @@ export const Achievments = () => (
       <img class='carousel-images' src={UdemyIMG} alt="..."/>
       <div class="carousel-caption d-none d-md-block">
         <h3>Cyber Security - Python and Web Applications</h3>
-        <p>Received completion certificate from Mahrur Hossain & Evgeny Rahman at Udemy.</p>
+        <p>Received completion certificate from Mahrur Hossain and Evgeny Rahman at Udemy.</p>
       </div>
     </div>
 
