@@ -22,7 +22,6 @@ a {
 }
 
 a:hover {
-
 }
 
 .card{
@@ -190,7 +189,25 @@ iframe{
   text-align: left;
   padding-left: 30px;
   padding-top: 30px;
-  background-color: rgba(255, 255, 255, 0.432);
+
+}
+
+.dark-background{
+  width: 70%;
+  color: rgba(255, 255, 255);
+  text-align: left;
+  padding-left: 30px;
+  padding-top: 30px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.light-background{
+  width: 70%;
+  color: rgba(0, 0, 0);
+  text-align: left;
+  padding-left: 30px;
+  padding-top: 30px;
+  background-color: rgba(255, 255, 255, 0.65);
 }
 
 .centered-image{
